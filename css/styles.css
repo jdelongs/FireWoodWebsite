@@ -1,0 +1,139 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+nav, main, footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.thumbnail {
+  width: 10%;
+}
+
+/* Header Styles */
+
+header {
+  padding: 10px;
+  background: orangered;
+  margin: 0;
+  color: #f8f8f8;
+}
+
+.header-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header h1, header h2 {
+  line-height: .5em;
+}
+
+header h1 span {
+  color: #2c2c2c;
+}
+
+.header-left {
+  text-align: left;
+}
+
+
+/* Navigation Styles */
+
+nav {
+  margin-top: -80px;
+  float: right;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: #f8f8f8;
+}
+
+nav a:hover {
+  opacity: 0.5;
+  border-radius: 5px;
+  background: #2c2c2c;
+}
+
+nav a:visited {
+  color: #f8f8f8;
+}
+
+/* Table Styles */
+
+table {
+  margin: 50px auto;
+}
+
+tr, td {
+  margin: 0;
+}
+
+td {
+  padding: 10px;
+}
+
+.alt {
+  background: lightgrey;
+}
+
+/* Form Styles */
+
+fieldset {
+  border: 0;
+  margin: 25px 0;
+}
+
+.submit-button {
+  width: 50%;
+  background: lightgreen;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.reset-button {
+  width: 25%;
+  float: right;
+  background: orangered;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.inputgroup {
+  margin-top: 10px;
+  padding: 0 5px;
+  width: 31%;
+  float: left;
+}
+
+.inputgroup input {
+  width: 100%;
+  padding: 5px 2px;
+}
+
+/* Contact Styles */
+
+.contactlist {
+  list-style: none;
+  padding: 0;
+}
+
+.contactlist strong {
+  padding-right: 10px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>FireWood</title>
+	</head>
+	<body>
+		<header>
+			<div class="header-container">
+				<div class="header-left">
+					<h1>Fire<span>Wood</span></h1>
+					<h2>We Deliver</h2>
+				</div>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="pricing.html">Pricing</a></li>
+						<li><a href="form.html">Order</a></li>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li><a href="contactus.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<h2>Order Now!</h2>
+
+			<form method="post" action="showform.php">
+				<fieldset>
+					<legend>Personal Information</legend>
+					<div class="inputgroup">
+						<label for="first-name">First name:</label>
+						<input type="text" name="firstname" class="large" placeholder="Enter First Name Here" required>
+					</div>
+					<div class="inputgroup">
+						<label for="last-name">Last name:</label>
+						<input type="text" name="lastname" class="large" placeholder="Enter Last Name Here" required>
+					</div>
+					<div class="inputgroup">
+						<label for="password">Password:</label>
+						<input type="text" name="password" class="large" placeholder="Enter Password" required>
+					</div>
+					<div class="inputgroup">
+						<label for="password">Re-enter Password:</label>
+						<input type="text" name="re-enter-password" class="large" placeholder="Confirm Password" required>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Delivery Information</legend>
+					<div class="inputgroup">
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" placeholder="Enter Your Email"/>
+					</div>
+					<div class="inputgroup">
+						<label for="street-address">Street Address:</label>
+						<input type="text" id="street-address" name="street address" class="large" placeholder=" House Number And Street Name" required />
+					</div>
+					<div class="inputgroup">
+						<label for="city">City:</label>
+						<input type="text" id="city" name="city" class="large" placeholder="Enter Where You Live" required />
+					</div>
+					<div class="inputgroup">
+						<label for="postal-code">Postal Code</label>
+						<input type="text" id="postal-code" name="postal-code" placeholder="Postal Code" maxlength="7" required />
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Payment Information</legend>
+					<div class="inputgroup">
+						<label for="billingname">Billing Name:</label>
+						<input type="text" id="billingname" name="billingname" class="large" placeholder="Enter Full Billing Name" required />
+					</div>
+					<div class="inputgroup">
+						<label for="baddr">Billing Address</label>
+						<input type="text" id="baddr" name="baddr" class="large" placeholder="Enter Billing Address" required />
+					</div>
+					<div class="inputgroup">
+						<label for="ccnum">Credit Card Number:</label>
+						<input type="text" id="ccnum" name="ccnum" class="large" placeholder="Enter CC Number" required />
+					</div>
+					<div class="inputgroup">
+						<label for="ccv">Security Number:</label>
+						<input type="text" id="ccv" name="ccv" class="large" placeholder="Enter Security Number" required />
+					</div>
+					<div class="inputgroup">
+						<label for="ccexp">Expiry Date:</label>
+						<input type="text" id="ccexp" name="ccexp" class="large" placeholder="Enter CC Expiry Date" required />
+					</div>
+				</fieldset>
+					<br><br>
+					<input class="submit-button" type="submit" value="Submit">
+					<input class="reset-button" type="reset">
+			</form>
+		</main>
+		<footer>
+			<p>&copy;<small><a href="https://www.linkedin.com/in/john-delong-26265712a?trk=nav_responsive_tab_profile">John Delong </a><a href="contactus.html" title="Contact The Maker of this page"/>Contact Us</a>
+				 <a href="aboutus.html" title="This is all about me">About Us</a></small></p>
+		</div>
+		</footer>
+	</body>
+</html>
